@@ -1,0 +1,29 @@
+/* Your Website Styles */
+<<<<<<< HEAD
+h1{
+	color: orange;
+	font-family: 'Lobster', cursive;
+	background: red;
+	width: 350px;
+	padding: 10px;
+	margin: 100px 200px;
+	border: 10px solid black;	
+}
+body{
+	background: url("../img/bg.png");
+=======
+body{
+	/*background: url("../img/background.png");*/
+}
+
+#map{
+	margin-top: -60px;
+}
+#additional{
+	margin-top: 60px;
+>>>>>>> origin/master
+}
+/* Show Grid */
+/*.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}*/
