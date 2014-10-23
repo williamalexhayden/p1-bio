@@ -1,37 +1,92 @@
 /* Your Website Styles */
+#logo {
+	text-align: center;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+nav ul{
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	display: center; 
+	padding: 0 50px 0 50px;
+	color: white;
+	font-family: 'Lato', sans-serif; font-weight:300;
+	font-size: 1.2em;
+
+}
+ul{
+	padding: 0em;
+	margin-left: 1em;
+	text-align: left;
+	list-style: none;
+	font-size: .8em;
+	font-style: italic;
+}
+
+
+
+/*heading*/
 h1{
 	color: white;
-	font-family: 'Lato', sans-serif, bold;
-	background: red;
-	padding: 10px;
-	margin: 75px 200px;	
-	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-align: right;
+	margin-bottom: 0em;
+	margin-top: 50px; 
+	font-size: 3em;
 }
+/*subhead*/
 h2{
+	font-family: 'Lato', sans-serif; font-weight:300;
 	color: darkgrey;
-	padding: 10px;
-	margin: 10px 200px;
-	text-align: center;
+	text-align: right;
+	margin-top: 0em; 
+	margin-bottom: 50px;
+	font-size: 2.5em;
 }
+/*section titles*/
 h3{
-	color: lightgrey;
+	font-family: 'Lato', sans-serif; font-weight:400;
+	color: white;
+	margin-top: 1em; 
+	margin-bottom: 1em;
 }
-body{
-
+/*copyright*/
+h4{
+	font-family: 'Lato', sans-serif; font-weight:300;
+	color: white;
 }
-
-
-
-
 /*ask clin if tere is a more economical way of doing this over using responsive formatting*/
+body{
+	background: #000000 url("../img/1-yourself.jpg");
+	background-size: cover;
+	background-color: #000;
+	color: #D9D9D9;
 
-/*	background: #000000 url("../img/1-yourself.jpg");
-	background-size: cover;*/
-/*	background-size: contain;*/
-/*	background-position: fixed;*/
+}
+p{
+	font-color:white;
+	font-family: 'Lato', sans-serif; font-weight: 400;
+	text-align: left;
+}
+img{
+	max-width: 100%;
+	margin-top: 1em;
+	margin-bottom:1em;
+}
+
+
+
+
+
 
 
 /* Show Grid */
-.showgrid {
+/*.showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
-}
+}*/
