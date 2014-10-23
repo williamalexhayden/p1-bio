@@ -11,9 +11,6 @@ h1{
 }
 body{
 	background: url("../img/bg.png");
-=======
-body{
-	/*background: url("../img/background.png");*/
 }
 
 #map{
@@ -21,9 +18,8 @@ body{
 }
 #additional{
 	margin-top: 60px;
->>>>>>> origin/master
 }
 /* Show Grid */
-/*.showgrid {
+.showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
-}*/
+}
