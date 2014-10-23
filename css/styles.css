@@ -1,24 +1,36 @@
 /* Your Website Styles */
-<<<<<<< HEAD
 h1{
-	color: orange;
-	font-family: 'Lobster', cursive;
+	color: white;
+	font-family: 'Lato', sans-serif, bold;
 	background: red;
-	width: 350px;
 	padding: 10px;
-	margin: 100px 200px;
-	border: 10px solid black;	
+	margin: 75px 200px;	
+	text-align: center;
+}
+h2{
+	color: darkgrey;
+	padding: 10px;
+	margin: 10px 200px;
+	text-align: center;
+}
+h3{
+	color: lightgrey;
 }
 body{
-	background: url("../img/bg.png");
+
 }
 
-#map{
-	margin-top: -60px;
-}
-#additional{
-	margin-top: 60px;
-}
+
+
+
+/*ask clin if tere is a more economical way of doing this over using responsive formatting*/
+
+/*	background: #000000 url("../img/1-yourself.jpg");
+	background-size: cover;*/
+/*	background-size: contain;*/
+/*	background-position: fixed;*/
+
+
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
